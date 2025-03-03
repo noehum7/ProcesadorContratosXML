@@ -1,21 +1,28 @@
 # Procesador de Contratos XML
 
-## Descripción
+## 📝 Descripción
 Aplicación Java que procesa archivos XML de contratos adjudicados, almacena la información en una base de datos Oracle y genera un nuevo archivo XML filtrado sin el tipo de contrato.
 
-## Tecnologías
+## ✨ Características
+✅ Procesa archivos XML de contratos
+✅ Almacena la información en una base de datos Oracle
+✅ Genera un nuevo archivo XML filtrado sin el tipo de contrato
+✅ Validación de datos de entrada
+✅ Registro de errores y mensajes de operación
+
+🔧 Tecnologías utilizadas
 - Java 17
 - Oracle Database XE
 - Maven
 - XML (DOM Parser)
 
-## Requisitos Previos
+## 📋 Requisitos
 - JDK 17 o superior
 - Oracle Database XE
 - Maven instalado
 - IDE (recomendado IntelliJ IDEA o VS Code)
 
-## Estructura del Proyecto
+## 📁 Estructura del proyecto
 
 src/
 ├── main/
@@ -25,13 +32,24 @@ src/
 │           ├── dao/          # Capa de acceso a datos
 │           └── model/        # Modelos de datos
 
-## Uso
-1. Asegúrate de tener el archivo XML de contratos en la raíz del proyecto
-2. Ejecuta la aplicación desde la clase Main
-3. La aplicación:
-   - Leerá el archivo XML de entrada
-   - Insertará los datos en la tabla CONTRATOS
-   - Generará un nuevo archivo XML sin el tipo de contrato
+## ⚙️ Configuración del entorno de desarrollo
+Clona este repositorio
+Abre el proyecto con tu IDE preferido
+Ejecuta mvn clean install para descargar las dependencias
+
+## 🚀 Ejecución
+La aplicación puede ejecutarse desde la clase Main.
+
+## 📱 Uso
+Asegúrate de tener el archivo XML de contratos en la raíz del proyecto
+Ejecuta la aplicación desde la clase Main
+La aplicación:
+Leerá el archivo XML de entrada
+Insertará los datos en la tabla CONTRATOS
+Generará un nuevo archivo XML sin el tipo de contrato
+
+##🧪 Pruebas
+El proyecto incluye pruebas unitarias básicas que pueden ejecutarse usando Maven.
 
 ## Estructura de la Base de Datos
 ```sql
@@ -49,3 +67,5 @@ CREATE TABLE CONTRATOS (
 
 ## Autor
 Desarrollado por Noe
+
+<div align="center"> <p>Desarrollado con ❤️ para la asignatura de Programación de Dispositivos Móviles de 2º de DAM</p> <br> <a href="https://github.com/noehum7/ProcesadorContratosXML"> <img src="https://img.shields.io/github/stars/noehum7/ProcesadorContratosXML?style=social" alt="GitHub stars"> </a> <a href="https://github.com/noehum7/ProcesadorContratosXML"> <img src="https://img.shields.io/badge/GitHub-Repositorio-blue?style=for-the-badge&logo=github" alt="GitHub Repo"/> </a> <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java" alt="Java 17"/> <img src="https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge" alt="Licencia"/> </div>
