@@ -4,11 +4,11 @@
 Aplicación Java que procesa archivos XML de contratos adjudicados, almacena la información en una base de datos Oracle y genera un nuevo archivo XML filtrado sin el tipo de contrato.
 
 ## ✨ Características
-✅ Procesa archivos XML de contratos
-✅ Almacena la información en una base de datos Oracle
-✅ Genera un nuevo archivo XML filtrado sin el tipo de contrato
-✅ Validación de datos de entrada
-✅ Registro de errores y mensajes de operación
+- ✅ Procesa archivos XML de contratos
+- ✅ Almacena la información en una base de datos Oracle
+- ✅ Genera un nuevo archivo XML filtrado sin el tipo de contrato
+- ✅ Validación de datos de entrada
+- ✅ Registro de errores y mensajes de operación
 
 🔧 Tecnologías utilizadas
 - Java 17
@@ -23,14 +23,9 @@ Aplicación Java que procesa archivos XML de contratos adjudicados, almacena la 
 - IDE (recomendado IntelliJ IDEA o VS Code)
 
 ## 📁 Estructura del proyecto
-
-src/
-├── main/
-│   └── java/
-│       └── org/noehum7/trabajo/
-│           ├── connection/    # Gestión de conexión BD
-│           ├── dao/          # Capa de acceso a datos
-│           └── model/        # Modelos de datos
+- src/main/java/org/noehum7/trabajo/connection/: Gestión de conexión BD
+- src/main/java/org/noehum7/trabajo/dao/: Capa de acceso a datos
+- src/main/java/org/noehum7/trabajo/model/: Modelos de datos
 
 ## ⚙️ Configuración del entorno de desarrollo
 Clona este repositorio
@@ -48,7 +43,7 @@ Leerá el archivo XML de entrada
 Insertará los datos en la tabla CONTRATOS
 Generará un nuevo archivo XML sin el tipo de contrato
 
-##🧪 Pruebas
+## 🧪 Pruebas
 El proyecto incluye pruebas unitarias básicas que pueden ejecutarse usando Maven.
 
 ## Estructura de la Base de Datos
@@ -68,4 +63,4 @@ CREATE TABLE CONTRATOS (
 ## Autor
 Desarrollado por Noe
 
-<div align="center"> <p>Desarrollado con ❤️ para la asignatura de Programación de Dispositivos Móviles de 2º de DAM</p> <br> <a href="https://github.com/noehum7/ProcesadorContratosXML"> <img src="https://img.shields.io/github/stars/noehum7/ProcesadorContratosXML?style=social" alt="GitHub stars"> </a> <a href="https://github.com/noehum7/ProcesadorContratosXML"> <img src="https://img.shields.io/badge/GitHub-Repositorio-blue?style=for-the-badge&logo=github" alt="GitHub Repo"/> </a> <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java" alt="Java 17"/> <img src="https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge" alt="Licencia"/> </div>
+<div align="center"> <p>Desarrollado con ❤️ para la asignatura de Acceso a Datos de 2º de DAM</p> <br> <a href="https://github.com/noehum7/ProcesadorContratosXML"> <img src="https://img.shields.io/github/stars/noehum7/ProcesadorContratosXML?style=social" alt="GitHub stars"> </a> <a href="https://github.com/noehum7/ProcesadorContratosXML"> <img src="https://img.shields.io/badge/GitHub-Repositorio-blue?style=for-the-badge&logo=github" alt="GitHub Repo"/> </a> <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java" alt="Java 17"/> <img src="https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge" alt="Licencia"/> </div>
